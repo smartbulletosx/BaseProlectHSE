@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Timetable for HSE FE</string>
+    <string name="StudentsButton">Расписание для студентов</string>
+    <string name="TeacherButton">Расписание для преподавателя</string>
+    <string name="settings">Настройки</string>
+    <string name="DailySchedule">Расписание на день</string>
+    <string name="WeeklySchedule">Расписание на неделю</string>
+    <string name="choose_teacher_label">Выберите преподавателя:</string>
+    <string name="choose_group_label">Выберите группу</string>
+    <string name="choose_photo_label">Выберите фото</string>
+    <string name="take_photo">Сделать фото</string>
+
+</resources>
