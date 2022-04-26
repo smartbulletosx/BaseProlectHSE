@@ -14,39 +14,42 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        View studentsSchedule = (Button)findViewById(R.id.studentsSchedule);
-        View teacherSchedule = (Button)findViewById(R.id.teacherSchedule);
-        View settings=(Button)findViewById(R.id.settings);
+        View studentsSchedule = (Button) findViewById(R.id.studentsSchedule);
+        View teacherSchedule = (Button) findViewById(R.id.teacherSchedule);
+        View settings = (Button) findViewById(R.id.settings);
 
         studentsSchedule.setOnClickListener(this);
         teacherSchedule.setOnClickListener(this);
         settings.setOnClickListener(this);
     }
 
-    private void showStudent(){
-        Intent intent=new Intent(this,StudentActivity.class);
+    private void showStudent() {
+        Intent intent = new Intent(this, StudentActivity.class);
         startActivity(intent);
     }
-    private void showTeacher(){
-        Intent intent=new Intent(this,TeacherActivity.class);
+
+    private void showTeacher() {
+        Intent intent = new Intent(this, TeacherActivity.class);
         startActivity(intent);
     }
-    private void showSettings(){
-        Intent intent=new Intent(this,SettingsActivity.class);
+
+    private void showSettings() {
+        Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
     }
-    public void DisplayToast(String text){
+
+    public void DisplayToast(String text) {
         Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
     }
+
     @Override
     public void onClick(View view) {
-        switch(view.getId()){
+        switch (view.getId()) {
             case R.id.studentsSchedule:
                 DisplayToast("Открытие расписания для студентов");
                 Intent intent1 = new Intent(this, StudentActivity.class);
@@ -63,6 +66,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent3);
             default:
                 break;
+        }
     }
-}
 }

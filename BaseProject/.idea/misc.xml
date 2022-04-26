@@ -9,6 +9,15 @@
         <entry key="..\:/BaseProject/app/src/main/res/layout/activity_student.xml" value="0.264" />
         <entry key="..\:/BaseProject/app/src/main/res/layout/activity_teacher.xml" value="0.264" />
         <entry key="..\:/BaseProject/app/src/main/res/xml/file_paths.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/divider.xml" value="0.2305" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24417426545086118" />
+        <entry key="app/src/main/res/layout/activity_schedule.xml" value="0.24417426545086118" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.24417426545086118" />
+        <entry key="app/src/main/res/layout/activity_student.xml" value="0.24417426545086118" />
+        <entry key="app/src/main/res/layout/activity_teacher.xml" value="0.24417426545086118" />
+        <entry key="app/src/main/res/layout/item_schedule_header.xml" value="0.2730496453900709" />
+        <entry key="app/src/main/res/layout/item_shedule.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/schedule_header.xml" value="0.24417426545086118" />
       </map>
     </option>
   </component>

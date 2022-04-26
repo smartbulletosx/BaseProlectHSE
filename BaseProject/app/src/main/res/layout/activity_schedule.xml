@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScheduleActivity">
+    tools:context=".ScheduleActivity"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/title1"
-        android:layout_width="wrap_content"
+        android:id="@+id/title"
+        style="@style/HeaderTitleText"
+        android:padding="8dp"
+        android:layout_width="match_parent"
         android:layout_height="42dp"
-        android:layout_weight="1"
-        android:text="TextView"
-        tools:text="Title" />
+        tools:text="Заголовок" />
+
+    <TextView
+        android:id="@+id/dateTime"
+        style="@style/MainTextStyle.Normal"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        tools:text="11.08.2001" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
